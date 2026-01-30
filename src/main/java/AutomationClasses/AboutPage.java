@@ -16,7 +16,7 @@ public class AboutPage {
 		Thread.sleep(6000);
 		driver.findElement(By.xpath("(//button[@type='button'])[5]")).click();
 		driver.findElement(By.linkText("About Us")).click();
-		
+		System.out.println("hi");
 		String title = driver.getTitle();
 		System.out.println(title);
 
